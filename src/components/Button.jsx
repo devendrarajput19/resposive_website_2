@@ -9,11 +9,11 @@ const COLOR = ['primary', 'blue', 'red', 'green']
 
 export const Button = ({children, type, onClick, buttonStyles, buttonSize, buttonColor}) => {
 
-    const checkButtonStyle = STYLES.includes(buttonStyles) ? buttonStyles : STYLES[0]
+    const checkButtonStyle = STYLES.includes(buttonStyles) ? buttonStyles : STYLES[0];
 
-    const checkButtonSize = STYLES.includes(buttonSize) ? buttonSize : STYLES[0]
+    const checkButtonSize = STYLES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-    const checkButtonColor = STYLES.includes(buttonColor) ? buttonColor : STYLES[0]
+    const checkButtonColor = STYLES.includes(buttonColor) ? buttonColor : null;
 
     return (
         <button className={'btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}'}
