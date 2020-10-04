@@ -10,12 +10,12 @@
     border: 1px solid #fff;
     cursor: pointer;
     white-space: nowrap;
-    background-color: #242424;
+    background-color: blue;
     color: #fff;
 }
 .btn:hover{
-    background-color: rgb(136, 192, 245);
-    color: #242424;
+    background-color: #f00946;
+    color: #fff;
 }
 
 .btn--primary{
